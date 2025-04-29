@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';  // Optional: for styling
-import App from './App';  // Your main App component
+import './index.css';  // This should match the path of your index.css file
+import App from './App';  
 import reportWebVitals from './reportWebVitals'; // Optional
 
 ReactDOM.render(
@@ -11,5 +11,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// Optional: report web vitals for performance tracking
 reportWebVitals();
